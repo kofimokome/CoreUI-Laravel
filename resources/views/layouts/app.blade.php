@@ -20,33 +20,8 @@
 <body class="app header-fixed sidebar-fixed aside-menu-fixed sidebar-lg-show">
 
 @include('common.header')
-<div class="sidebar" style="margin-top: 50px">
-    <nav class="sidebar-nav">
-        <ul class="nav">
-            <li class="nav-item">
-                <a class="nav-link" href="/">
-                    <i class="nav-icon icon-speedometer"></i> Dashboard
-                </a>
-            </li>
-            <li class="nav-item nav-dropdown">
-                <a class="nav-link nav-dropdown-toggle" href="#">
-                    <i class="nav-icon icon-puzzle"></i> test</a>
-                <ul class="nav-dropdown-items">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">
-                            <i class="nav-icon fa fa-plus-circle"> </i> new</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">
-                            <i class="nav-icon icon-puzzle"></i> all</a>
-                    </li>
-                </ul>
-            </li>
-        </ul>
-    </nav>
-    <button class="sidebar-minimizer brand-minimizer" type="button"></button>
-</div>
-<main class="main" style="margin-top: 70px">
+@include('common.sidebar')
+<main class="main" style="margin-top: 55px">
     @yield('content')
 </main>
 

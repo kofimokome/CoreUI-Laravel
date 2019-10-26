@@ -22,6 +22,7 @@
 @include('common.header')
 @include('common.sidebar')
 <main class="main" style="margin-top: 55px">
+    @include('common.breadcrumb')
     @yield('content')
 </main>
 
@@ -30,9 +31,5 @@
 <!-- Scripts -->
 <script src="{{ asset('js/app.js') }}"></script>
 
-<!-- Include the script only on homepage -->
-{{--@if(Request::path() === 'admin')--}}
-<script src="{{asset('js/main.js')}}"></script>
-{{--@endif--}}
 </body>
 </html>

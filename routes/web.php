@@ -11,13 +11,9 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
-
 Auth::routes();
 
-Route::get('/dashboard', 'DashboardController@index')->name('home');
+Route::get('/', 'DashboardController@index')->name('home');
 Route::get('/colors', 'DashboardController@colors')->name('colors');
 Route::get('/typography', 'DashboardController@typography')->name('typography');
 Route::get('/charts', 'DashboardController@charts')->name('charts');

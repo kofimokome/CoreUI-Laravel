@@ -20,6 +20,7 @@ Auth::routes();
 Route::get('/dashboard', 'DashboardController@index')->name('home');
 Route::get('/colors', 'DashboardController@colors')->name('colors');
 Route::get('/typography', 'DashboardController@typography')->name('typography');
+Route::get('/charts', 'DashboardController@charts')->name('charts');
 
 Route::prefix('/base')->group(function () {
     Route::get('/breadcrumb', 'DashboardController@breadcrumb');

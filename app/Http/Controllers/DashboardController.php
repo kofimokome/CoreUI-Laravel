@@ -36,6 +36,11 @@ class DashboardController extends Controller
         return view('pages.typography');
     }
 
+    public function charts()
+    {
+        return view('pages.charts');
+    }
+
 // Route group = /base
     public function breadcrumb()
     {

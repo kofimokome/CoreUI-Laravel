@@ -11,8 +11,8 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
     <title>CoreUI-Laravel</title>
-    <script src="https://code.jquery.com/jquery-3.1.1.min.js"
-            crossorigin="anonymous"></script>
+    {{--<script src="https://code.jquery.com/jquery-3.1.1.min.js"--}}
+            {{--crossorigin="anonymous"></script>--}}
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 
@@ -30,6 +30,6 @@
 
 <!-- Scripts -->
 <script src="{{ asset('js/app.js') }}"></script>
-
+@yield('scripts')
 </body>
 </html>

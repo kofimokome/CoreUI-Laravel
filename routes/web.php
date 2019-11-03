@@ -17,6 +17,7 @@ Route::get('/', 'DashboardController@index')->name('home');
 Route::get('/colors', 'DashboardController@colors')->name('colors');
 Route::get('/typography', 'DashboardController@typography')->name('typography');
 Route::get('/charts', 'DashboardController@charts')->name('charts');
+Route::get('/widgets', 'DashboardController@widgets')->name('widgets');
 
 Route::prefix('/base')->group(function () {
     Route::get('/breadcrumb', 'DashboardController@breadcrumb');
@@ -27,6 +28,14 @@ Route::prefix('/base')->group(function () {
     Route::get('/jumbotron', 'DashboardController@jumbotron');
     Route::get('/list-group', 'DashboardController@listGroup');
     Route::get('/navs', 'DashboardController@navs');
+    Route::get('/pagination', 'DashboardController@pagination');
+    Route::get('/popovers', 'DashboardController@popovers');
+    Route::get('/progress', 'DashboardController@progress');
+    Route::get('/scrollspy', 'DashboardController@scrollspy');
+    Route::get('/switches', 'DashboardController@switches');
+    Route::get('/tables', 'DashboardController@tables');
+    Route::get('/tabs', 'DashboardController@tabs');
+    Route::get('/tooltips', 'DashboardController@tooltips');
 });
 
 Route::prefix('/buttons')->group(function () {

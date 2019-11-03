@@ -41,6 +41,11 @@ class DashboardController extends Controller
         return view('pages.charts');
     }
 
+    public function widgets()
+    {
+        return view('pages.widgets');
+    }
+
 // Route group = /base
     public function breadcrumb()
     {
@@ -82,6 +87,47 @@ class DashboardController extends Controller
         return view('pages.base.navs');
     }
 
+    public function pagination()
+    {
+        return view('pages.base.pagination');
+    }
+
+    public function popovers()
+    {
+        return view('pages.base.popovers');
+    }
+
+    public function progress()
+    {
+        return view('pages.base.progress');
+    }
+
+    public function scrollspy()
+    {
+        return view('pages.base.scrollspy');
+    }
+
+    public function switches()
+    {
+        return view('pages.base.switches');
+    }
+
+    public function tables()
+    {
+        return view('pages.base.tables');
+    }
+
+    public function tabs()
+    {
+        return view('pages.base.tabs');
+    }
+
+    public function tooltips()
+    {
+        return view('pages.base.tooltips');
+    }
+
+// Error pages
     public function error()
     {
         return view('errors.500');

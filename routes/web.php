@@ -20,6 +20,7 @@ Route::get('/charts', 'DashboardController@charts')->name('charts');
 Route::get('/widgets', 'DashboardController@widgets')->name('widgets');
 
 Route::prefix('/base')->group(function () {
+    Route::get('/', 'DashboardController@breadcrumb');
     Route::get('/breadcrumb', 'DashboardController@breadcrumb');
     Route::get('/cards', 'DashboardController@cards');
     Route::get('/carousel', 'DashboardController@carousel');
@@ -43,11 +44,18 @@ Route::prefix('/buttons')->group(function () {
 });
 
 Route::prefix('/icons')->group(function () {
-
+    Route::get('/', 'DashboardController@coreuiIcons');
+    Route::get('/coreui-icons', 'DashboardController@coreuiIcons');
+    Route::get('/flags', 'DashboardController@flags');
+    Route::get('/font-awesome', 'DashboardController@fontAwesome');
+    Route::get('/simple-line-icons', 'DashboardController@simpleLineIcons');
 });
 
 Route::prefix('/notifications')->group(function () {
-
+    Route::get('/', 'DashboardController@alerts');
+    Route::get('/alerts', 'DashboardController@alerts');
+    Route::get('/badge', 'DashboardController@badge');
+    Route::get('/modals', 'DashboardController@modals');
 });
 
 Route::get('/500', 'DashboardController@error');

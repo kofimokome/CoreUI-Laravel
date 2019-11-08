@@ -46,7 +46,7 @@ class DashboardController extends Controller
         return view('pages.widgets');
     }
 
-// Route group = /base
+    // Route group = /base
     public function breadcrumb()
     {
         return view('pages.base.breadcrumb');
@@ -126,6 +126,44 @@ class DashboardController extends Controller
     {
         return view('pages.base.tooltips');
     }
+
+    // Route group = /icons
+    public function coreuiIcons()
+    {
+        return view('pages.icons.coreui-icons');
+    }
+
+    public function flags()
+    {
+        return view('pages.icons.flags');
+    }
+
+    public function fontAwesome()
+    {
+        return view('pages.icons.font-awesome');
+    }
+
+    public function simpleLineIcons()
+    {
+        return view('pages.icons.simple-line-icons');
+    }
+
+    // Route group = /notifications
+    public function alerts()
+    {
+        return view('pages.notifications.alerts');
+    }
+
+    public function badge()
+    {
+        return view('pages.notifications.badge');
+    }
+
+    public function modals()
+    {
+        return view('pages.notifications.modals');
+    }
+
 
 // Error pages
     public function error()

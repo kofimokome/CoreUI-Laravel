@@ -3,17 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ee75a4b5-fd18-4cf9-ac2c-039f5182da71" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/DashboardController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/DashboardController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/auth.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/auth.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/pages/icons/coreui-icons.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pages/icons/coreui-icons.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/pages/icons/flags.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pages/icons/flags.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/pages/icons/font-awesome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pages/icons/font-awesome.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/pages/icons/simple-line-icons.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pages/icons/simple-line-icons.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/pages/notifications/alerts.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pages/notifications/alerts.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/pages/notifications/badge.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pages/notifications/badge.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/pages/notifications/modals.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pages/notifications/modals.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -27,11 +17,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="web.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="web.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/web.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="402">
               <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="readme.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/readme.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="360">
+                <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -125,7 +127,6 @@
         <option value="$PROJECT_DIR$/Dockerfile" />
         <option value="$PROJECT_DIR$/docker-compose.yml" />
         <option value="$PROJECT_DIR$/.env.example" />
-        <option value="$PROJECT_DIR$/readme.md" />
         <option value="$PROJECT_DIR$/resources/views/pages/base/pagination.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/pages/base/popovers.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/pages/base/progress.blade.php" />
@@ -147,6 +148,7 @@
         <option value="$PROJECT_DIR$/resources/views/layouts/app.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/layouts/auth.blade.php" />
         <option value="$PROJECT_DIR$/routes/web.php" />
+        <option value="$PROJECT_DIR$/readme.md" />
       </list>
     </option>
   </component>
@@ -399,7 +401,7 @@
       <workItem from="1572111899318" duration="7717000" />
       <workItem from="1572253230911" duration="498000" />
       <workItem from="1572809235964" duration="2416000" />
-      <workItem from="1573200061454" duration="2170000" />
+      <workItem from="1573200061454" duration="3076000" />
     </task>
     <task id="LOCAL-00001" summary="Add Dashboard Page">
       <created>1572022344052</created>
@@ -443,11 +445,25 @@
       <option name="project" value="LOCAL" />
       <updated>1573200619940</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Update basehref, Add Icons and Notification Views">
+      <created>1573202339333</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1573202339333</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Update ReadMe">
+      <created>1573202956177</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1573202956177</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20181000" />
+    <option name="totallyTimeSpent" value="21087000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1280" y="-2" width="1280" height="1026" extended-state="6" />
@@ -489,7 +505,9 @@
     <MESSAGE value="Update / Route" />
     <MESSAGE value="Update Base Routes, Add Docker, Update Readme" />
     <MESSAGE value="Add CustomTooltip" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add CustomTooltip" />
+    <MESSAGE value="Update basehref, Add Icons and Notification Views" />
+    <MESSAGE value="Update ReadMe" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update ReadMe" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/resources/views/welcome.blade.php">
@@ -650,14 +668,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="182">
           <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/readme.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
         </state>
       </provider>
     </entry>
@@ -839,6 +849,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="402">
           <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="360">
+            <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

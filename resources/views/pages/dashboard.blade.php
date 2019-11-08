@@ -801,7 +801,7 @@
         Chart.defaults.global.tooltips.enabled = false;
         Chart.defaults.global.tooltips.mode = 'index';
         Chart.defaults.global.tooltips.position = 'nearest';
-        //Chart.defaults.global.tooltips.custom = CustomTooltips;
+        Chart.defaults.global.tooltips.custom = CustomTooltips;
         Chart.defaults.global.tooltips.intersect = true;
 
         Chart.defaults.global.tooltips.callbacks.labelColor = function (tooltipItem, chart) {

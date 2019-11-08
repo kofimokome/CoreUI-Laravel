@@ -2,20 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ee75a4b5-fd18-4cf9-ac2c-039f5182da71" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.env.example" beforeDir="false" afterPath="$PROJECT_DIR$/.env.example" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/custom-tooltips.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/custom-tooltips.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/allen_group.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/coreui_laravel.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/DashboardController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/DashboardController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/pages/base/pagination.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pages/base/pagination.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/pages/base/popovers.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pages/base/popovers.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/pages/base/progress.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pages/base/progress.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/pages/base/scrollspy.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pages/base/scrollspy.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/pages/base/switches.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pages/base/switches.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/pages/base/tables.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pages/base/tables.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/pages/base/tabs.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pages/base/tabs.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/pages/base/tooltips.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pages/base/tooltips.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/pages/widgets.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pages/widgets.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/pages/dashboard.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pages/dashboard.blade.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -32,7 +25,7 @@
       <file leaf-file-name="web.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/web.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="97">
+            <state relative-caret-position="150">
               <caret line="19" column="68" selection-start-line="19" selection-start-column="68" selection-end-line="19" selection-end-column="68" />
             </state>
           </provider>
@@ -47,11 +40,29 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="widgets.blade.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="widgets.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/pages/widgets.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="249">
-              <caret line="864" column="11" selection-start-line="864" selection-start-column="11" selection-end-line="864" selection-end-column="11" />
+            <state relative-caret-position="419">
+              <caret line="862" column="14" selection-start-line="862" selection-start-column="14" selection-end-line="862" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/layouts/app.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="448">
+              <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dashboard.blade.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/views/pages/dashboard.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="234">
+              <caret line="803" column="8" lean-forward="true" selection-start-line="803" selection-start-column="8" selection-end-line="803" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -59,7 +70,7 @@
       <file leaf-file-name="DashboardController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/DashboardController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="277">
+            <state relative-caret-position="675">
               <caret line="45" column="34" selection-start-line="45" selection-start-column="34" selection-end-line="45" selection-end-column="34" />
             </state>
           </provider>
@@ -68,7 +79,7 @@
       <file leaf-file-name="tooltips.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/pages/base/tooltips.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="249">
+            <state relative-caret-position="810">
               <caret line="54" column="11" selection-start-line="54" selection-start-column="11" selection-end-line="54" selection-end-column="11" />
             </state>
           </provider>
@@ -117,8 +128,6 @@
         <option value="$PROJECT_DIR$/resources/views/pages/base/navs.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/pages/charts.blade.php" />
         <option value="$PROJECT_DIR$/resources/js/app.js" />
-        <option value="$PROJECT_DIR$/resources/views/pages/dashboard.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/layouts/app.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/common/sidebar.blade.php" />
         <option value="$PROJECT_DIR$/Dockerfile" />
         <option value="$PROJECT_DIR$/docker-compose.yml" />
@@ -135,6 +144,8 @@
         <option value="$PROJECT_DIR$/routes/web.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/DashboardController.php" />
         <option value="$PROJECT_DIR$/resources/views/pages/widgets.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/layouts/app.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/pages/dashboard.blade.php" />
       </list>
     </option>
   </component>
@@ -245,10 +256,10 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="287" />
-    <option name="y" value="27" />
-    <option name="width" value="630" />
-    <option name="height" value="579" />
+    <option name="x" value="1280" />
+    <option name="y" value="-2" />
+    <option name="width" value="1280" />
+    <option name="height" value="1026" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -281,6 +292,17 @@
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="Http" type="462c0819:PsiDirectoryNode" />
               <item name="Controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="coreui_laravel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="coreui_laravel" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="coreui_laravel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="coreui_laravel" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="coreui_laravel" type="b2602c69:ProjectViewProjectNode" />
@@ -343,10 +365,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/resources/js" />
+      <recent name="$PROJECT_DIR$/public/js" />
       <recent name="$PROJECT_DIR$/resources/views/pages" />
       <recent name="$PROJECT_DIR$/resources/views/errors" />
       <recent name="$PROJECT_DIR$/resources/views/layouts" />
-      <recent name="$PROJECT_DIR$/resources/views/common" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -374,7 +397,8 @@
       <workItem from="1572015548763" duration="7380000" />
       <workItem from="1572111899318" duration="7717000" />
       <workItem from="1572253230911" duration="498000" />
-      <workItem from="1572809235964" duration="2118000" />
+      <workItem from="1572809235964" duration="2416000" />
+      <workItem from="1573200061454" duration="416000" />
     </task>
     <task id="LOCAL-00001" summary="Add Dashboard Page">
       <created>1572022344052</created>
@@ -404,24 +428,31 @@
       <option name="project" value="LOCAL" />
       <updated>1572119743921</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Update Base Routes, Add Docker, Update Readme">
+      <created>1572811444022</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1572811444022</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17713000" />
+    <option name="totallyTimeSpent" value="18427000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="25" width="1280" height="775" extended-state="6" />
+    <frame x="1280" y="-2" width="1280" height="1026" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32866043" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.2362822" />
       <window_info id="npm" order="2" sideWeight="0.50348026" side_tool="true" weight="0.24959481" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32919255" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.31931463" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4965197" visible="true" weight="0.25769854" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.31914893" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4965197" visible="true" weight="0.2617504" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -448,23 +479,10 @@
     <MESSAGE value="Add Other Pages, Update Route" />
     <MESSAGE value="Fix Graph" />
     <MESSAGE value="Update / Route" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update / Route" />
+    <MESSAGE value="Update Base Routes, Add Docker, Update Readme" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update Base Routes, Add Docker, Update Readme" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/resources/views/auth/verify.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="22" selection-start-column="22" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/auth/passwords/confirm.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="22" selection-start-column="22" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/auth/passwords/email.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -687,24 +705,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/pages/dashboard.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="1124" column="13" selection-start-line="1124" selection-start-column="13" selection-end-line="1124" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="19" column="28" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/layouts/app.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="32" selection-start-line="32" selection-end-line="32" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -766,21 +770,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/pages/base/tooltips.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
+        <state relative-caret-position="810">
           <caret line="54" column="11" selection-start-line="54" selection-start-column="11" selection-end-line="54" selection-end-column="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/routes/web.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="97">
+        <state relative-caret-position="150">
           <caret line="19" column="68" selection-start-line="19" selection-start-column="68" selection-end-line="19" selection-end-column="68" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/DashboardController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
+        <state relative-caret-position="675">
           <caret line="45" column="34" selection-start-line="45" selection-start-column="34" selection-end-line="45" selection-end-column="34" />
         </state>
       </provider>
@@ -794,8 +798,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/pages/widgets.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="864" column="11" selection-start-line="864" selection-start-column="11" selection-end-line="864" selection-end-column="11" />
+        <state relative-caret-position="419">
+          <caret line="862" column="14" selection-start-line="862" selection-start-column="14" selection-end-line="862" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/custom-tooltips.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/js/custom-tooltips.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/layouts/app.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/pages/dashboard.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="803" column="8" lean-forward="true" selection-start-line="803" selection-start-column="8" selection-end-line="803" selection-end-column="8" />
         </state>
       </provider>
     </entry>

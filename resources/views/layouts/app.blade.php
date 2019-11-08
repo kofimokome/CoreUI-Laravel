@@ -30,6 +30,8 @@
 
 <!-- Scripts -->
 <script src="{{ asset('js/app.js') }}"></script>
+<script src="{{ asset('js/custom-tooltips.js') }}"></script>
+
 @yield('scripts')
 </body>
 </html>

@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/allen_group.iml" filepath="$PROJECT_DIR$/.idea/allen_group.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/coreui_laravel.iml" filepath="$PROJECT_DIR$/.idea/coreui_laravel.iml" />
     </modules>
   </component>
 </project>

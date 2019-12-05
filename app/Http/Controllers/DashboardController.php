@@ -164,6 +164,27 @@ class DashboardController extends Controller
         return view('pages.notifications.modals');
     }
 
+    // Route group = /buttons
+    public function buttons()
+    {
+        return view('pages.buttons.buttons');
+    }
+
+    public function buttonGroup()
+    {
+        return view('pages.buttons.button-group');
+    }
+
+    public function brandButtons()
+    {
+        return view('pages.buttons.brand-buttons');
+    }
+
+    public function dropdowns()
+    {
+        return view('pages.buttons.dropdowns');
+    }
+
 
 // Error pages
     public function error()

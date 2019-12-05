@@ -11,21 +11,22 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
     <title>CoreUI-Laravel</title>
-    {{--<script src="https://code.jquery.com/jquery-3.1.1.min.js"--}}
-            {{--crossorigin="anonymous"></script>--}}
-    <!-- Styles -->
+{{--<script src="https://code.jquery.com/jquery-3.1.1.min.js"--}}
+{{--crossorigin="anonymous"></script>--}}
+<!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 
 </head>
 <body class="app header-fixed sidebar-fixed aside-menu-fixed sidebar-lg-show">
 
 @include('common.header')
-@include('common.sidebar')
-<main class="main" style="margin-top: 55px">
-    @include('common.breadcrumb')
-    @yield('content')
-</main>
-
+<div class="app-body">
+    @include('common.sidebar')
+    <main class="main">
+        @include('common.breadcrumb')
+        @yield('content')
+    </main>
+</div>
 @include('common.footer')
 
 <!-- Scripts -->

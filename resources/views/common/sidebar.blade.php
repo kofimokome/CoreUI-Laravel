@@ -1,4 +1,4 @@
-<div class="sidebar" style="margin-top: 55px">
+<div class="sidebar">
     <nav class="sidebar-nav">
         <nav class="sidebar-nav">
             <ul class="nav">
@@ -93,7 +93,7 @@
                         <i class="nav-icon icon-cursor"></i> Buttons</a>
                     <ul class="nav-dropdown-items">
                         <li class="nav-item">
-                            <a class="nav-link" href="{{url('buttons/buttons')}}">
+                            <a class="nav-link" href="{{url('buttons/')}}">
                                 <i class="nav-icon icon-cursor"></i> Buttons</a>
                         </li>
                         <li class="nav-item">

@@ -40,7 +40,10 @@ Route::prefix('/base')->group(function () {
 });
 
 Route::prefix('/buttons')->group(function () {
-
+    Route::get('/', 'DashboardController@buttons');
+    Route::get('/button-group', 'DashboardController@buttonGroup');
+    Route::get('/dropdowns','DashboardController@dropdowns');
+    Route::get('/brand-buttons','DashboardController@brandButtons');
 });
 
 Route::prefix('/icons')->group(function () {

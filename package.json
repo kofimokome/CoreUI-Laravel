@@ -15,7 +15,7 @@
         "@coreui/icons": "0.3.0",
         "axios": "^0.19",
         "bootstrap": "4.3.1",
-        "chart.js": "2.7.3",
+        "chart.js": "2.9.4",
         "core-js": "^2.5.7",
         "cross-env": "^5.1",
         "flag-icon-css": "^3.2.1",
